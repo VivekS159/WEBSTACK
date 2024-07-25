@@ -1,0 +1,53 @@
+
+.Workouts{
+    width: 100%;
+    background-image: url(Hit);
+    background-size: cover; 
+    padding-bottom: 10px;
+}
+.Workouts h1{
+    text-align: center;
+    padding: 25px 0px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display:flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+.Workouts-items{
+    flex-basis: 23%;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 10px 3px lightgray;
+}
+.Workouts-items h3{
+    padding: 10px 0px;
+}
+.Workouts-items p{
+    font-size: 16px;
+    padding: 20px;
+}
+.Workouts-items button{
+    padding: 10px 20px;
+    background-color: rgb(34, 16, 230) ;
+    border:none;
+    color: rgb(248, 244, 241);
+    margin: 10px 0px;
+    border-radius: 20px;
+}
+.Workouts-items:hover{
+    background: rgb(102, 100, 100);
+
+}
+.Workouts-items:hover p,.sports-items:hover h3{
+    color: rgb(191, 226, 243);
+
+}
+.Workouts-items:hover button{
+    background: rgb(11, 11, 11);
+
+}
